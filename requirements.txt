@@ -1,0 +1,15 @@
+# --- Core Framework ---
+selenium==4.18.1          # Automatización de navegador
+pytest==8.0.2             # Motor de pruebas
+pytest-xdist==3.5.0       # Ejecución en paralelo (Multithreading)
+
+# --- Drivers y Utilidades ---
+webdriver-manager==4.0.1  # Gestión automática de binarios (Chrome/Edge/Firefox)
+python-dotenv==1.0.1      # Gestión de variables de entorno (Credenciales/DB Strings)
+
+# --- API e Integración de Datos ---
+requests==2.31.0          # Pruebas de API REST
+pyodbc==5.1.0             # Conexión robusta a SQL Server
+
+# --- Reporting ---
+allure-pytest==2.13.2     # Reportes visuales de nivel ejecutivo
